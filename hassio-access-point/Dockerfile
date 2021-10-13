@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=ghcr.io/home-assistant/armv7-base:3.14
 FROM $BUILD_FROM
 
 MAINTAINER Matt Longman <git@mattlongman.com>
