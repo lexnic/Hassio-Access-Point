@@ -8,7 +8,7 @@ RUN apk update && \
 apk add --no-cache bash jq iw hostapd networkmanager net-tools sudo dnsmasq && \
 rm -rf /var/cache/apk/*
 
-MAINTAINER Matt Longman <git@mattlongman.com>
+MAINTAINER Denis Khurbatov <git@khurbd.com>
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
