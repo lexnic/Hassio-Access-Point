@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=ghcr.io/home-assistant/armv7-base:3.12
 FROM $BUILD_FROM
 
 RUN rm -rf /var/cache/apk/* && \
